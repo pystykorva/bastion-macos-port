@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Bastion needs location access to read Wi-Fi network names and channel information.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Bastion needs local network access to scan your router and discover devices on your network.</string>
+</dict>
+</plist>

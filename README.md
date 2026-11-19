@@ -1,3 +1,24 @@
+#This is a test branch.
+**Testing how well a local ai model running on a laptop could re-implement electron app into a native macOS application.**
+
+##Stack: 
+
+MacBook M2 Max with 96GB of ram. 
+Various versions of Qwen from huggingface. Qwen3.8-27B-MLX-8bit from lmstudio-community seemed to work the best
+Qwen -> LmStudio -> Cline
+
+##Results:
+
+Made a working app albeit some features are missing and there were a lots of intermediate versions of app that crashed. Lots of "try again", "don't repeat yourself, continue work" and "still crashes, fix please".
+
+Claude Sonnet 5.5 made the "real" porting that can be found in another branch of this repo.
+
+This branch is only left here for comparison.
+
+Original readme follows:
+
+------------------------------------------------------------------------------------------------------------------------------------
+
 <div align="center">
 
 <img src="build/icon.png" alt="Bastion app icon" width="128" height="128">
