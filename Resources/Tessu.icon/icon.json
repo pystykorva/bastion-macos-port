@@ -1,0 +1,60 @@
+{
+  "fill": {
+    "solid": "extended-srgb:0.11765,0.16471,0.21961,1.00000"
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "image-name": "layer-3-head.svg",
+          "name": "head",
+          "glass": true,
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "image-name": "layer-2-inner-ears.svg",
+          "name": "inner ears",
+          "glass": true,
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "image-name": "layer-1-ears.svg",
+          "name": "ears",
+          "glass": true,
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.4
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}

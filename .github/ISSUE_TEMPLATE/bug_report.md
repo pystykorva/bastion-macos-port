@@ -1,13 +1,16 @@
 ---
 name: Bug report
-about: Something in Bastion is wrong, broken or misleading
+about: Something in Tessu is wrong, broken or misleading
 title: "[Bug] "
 labels: bug
 ---
 
 <!--
-Security vulnerabilities in Bastion itself: please do NOT open a public issue.
+Security vulnerabilities in Tessu itself: please do NOT open a public issue.
 See SECURITY.md for private reporting.
+
+Problems in the original Electron app (Windows or macOS) belong in the upstream project:
+https://github.com/0xCodez/bastion/issues
 
 Before posting, remove anything private: public IP address, MAC addresses,
 Wi-Fi network names, device names, API keys.
@@ -27,27 +30,28 @@ Wi-Fi network names, device names, API keys.
 
 ## Which part of the app
 
-- [ ] Scan / security checks
-- [ ] Devices
-- [ ] Connections (where traffic goes)
-- [ ] Wi-Fi info / channel survey
-- [ ] DNS
-- [ ] Speed test
-- [ ] AI agents (Claude / ChatGPT / Grok)
-- [ ] Install / update / packaging
+- [ ] Home
+- [ ] Shield (scan checks, exposure radar)
+- [ ] Speed & Wi-Fi (speed test, channel chart)
+- [ ] Devices / connections
+- [ ] Agents (Claude / ChatGPT / Grok / OpenRouter / local server / Claude Code / Codex)
+- [ ] Settings
+- [ ] Support / Credits
+- [ ] Install / permissions (Local Network, Location) / packaging
 - [ ] Other
 
 ## Environment
 
-- Bastion version (Settings or About):
-- OS and version (e.g. Windows 11 24H2, macOS 15.2):
-- CPU (x64 / Apple Silicon / ARM64):
+- Tessu version (Credits screen):
+- macOS version (e.g. macOS 15.2):
+- Mac (Apple Silicon / Intel):
 - Connection (Wi-Fi / Ethernet), router model if known:
+- For local-server problems: which server and model (LM Studio, Ollama, ...):
 
 ## Evidence
 
 <!--
 If a check result looks wrong, paste the "evidence" line the app shows
-(for example "TCP 192.168.1.1:7547 open") and what you believe is true.
+(for example "TCP 192.168.1.1:7547 answers on your local network") and what you believe is true.
 Screenshots help. Redact private data.
 -->

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Tessu</string>
+	<key>CFBundleIconFile</key>
+	<string>Tessu</string>
+	<key>CFBundleIconName</key>
+	<string>Tessu</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pystykorva.tessu</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Tessu</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tessu</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>__VERSION__</string>
+	<key>CFBundleVersion</key>
+	<string>__BUILD__</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>MIT licence. Native macOS port of Bastion (github.com/0xCodez/bastion).</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Tessu looks at your router and the devices on your home network to find open doors. Nothing leaves your Mac except what you ask an AI about.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Tessu reads your Wi-Fi network name and channel, which macOS treats as location data. Your location is never read or stored.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Tessu reads your Wi-Fi network name and channel, which macOS treats as location data. Your location is never read or stored.</string>
+	<key>TessuFeedbackEmail</key>
+	<string>__FEEDBACK_EMAIL__</string>
+	<key>TessuFeedbackIssuesURL</key>
+	<string>__FEEDBACK_ISSUES_URL__</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_http._tcp</string>
+	</array>
+</dict>
+</plist>

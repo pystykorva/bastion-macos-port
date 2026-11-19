@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <URLBase>http://192.168.1.1:5000/</URLBase>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:InternetGatewayDevice:1</deviceType>
+    <friendlyName>Home Router</friendlyName>
+    <manufacturer>Acme &amp; Sons</manufacturer>
+    <modelName>AX-1</modelName>
+    <deviceList><device><deviceList><device>
+      <serviceList>
+        <service>
+          <serviceType>urn:schemas-upnp-org:service:WANIPConnection:1</serviceType>
+          <controlURL>/ctl/IPConn</controlURL>
+        </service>
+        <service>
+          <serviceType>urn:schemas-upnp-org:service:WANPPPConnection:1</serviceType>
+          <controlURL>http://8.8.8.8/evil</controlURL>
+        </service>
+        <service>
+          <serviceType>urn:schemas-upnp-org:service:Layer3Forwarding:1</serviceType>
+          <controlURL>/ctl/L3F</controlURL>
+        </service>
+      </serviceList>
+    </device></deviceList></device></deviceList>
+  </device>
+</root>

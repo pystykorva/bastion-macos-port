@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <g id="inner-ear-left" fill="#F4E3C3">
+    <path d="M 276 780 C 284 690 308 580 346 484 C 354 464 366 456 376 470 C 408 530 428 650 434 780 Z"/>
+  </g>
+  <g id="inner-ear-right" fill="#F4E3C3">
+    <path d="M 748 780 C 740 690 716 580 678 484 C 670 464 658 456 648 470 C 616 530 596 650 590 780 Z"/>
+  </g>
+</svg>
